@@ -11,9 +11,11 @@ export class Componente extends React.Component<ComponenteProps, ComponentState>
         this.state = {
             name: this.props.name
         }
+        console.log("constructor")
     }
 
     render(){
+        console.log("render")
         return <>
             Hola {this.state.name}
         </>
