@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "lint": "eslint --ext .ts,.tsx src"
+    "lint": "eslint --ext .ts,.tsx src",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
